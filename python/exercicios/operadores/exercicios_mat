@@ -1,0 +1,84 @@
+# ===========================================
+# OPERAÇÃO DE SOMA
+# ===========================================
+
+valor1 = int(input("Digite o primeiro número: "))
+valor2 = int(input("Digite o segundo número: "))
+
+print(f"O valor da soma dos dois numeros é: {valor1 + valor2}")
+
+
+# ===========================================
+# OPERAÇÃO DE SUBTRAÇÃO
+# ===========================================
+
+valor1 = int(input("Digite o primeiro número: "))
+valor2 = int(input("Digite o segundo número: "))
+
+print(f"O valor da subtração dos dois numeros é: {valor1 - valor2}")
+
+
+# ===========================================
+# OPERAÇÃO DE MULTIPLICAÇÃO
+# ===========================================
+
+valor1 = int(input("Digite o primeiro número: "))
+valor2 = int(input("Digite o segundo número: "))
+
+print(f"O valor da multiplicação dos dois numeros é: {valor1 * valor2}")
+
+
+# ===========================================
+# OPERAÇÃO DE DIVISÃO
+# ===========================================
+
+valor1 = int(input("Digite o numerador: "))
+valor2 = int(input("Digite o denominador(não pode ser zero): "))
+
+print(f"O valor da divisão dos dois numeros é: {valor1 / valor2}")
+
+
+# ===========================================
+# OPERAÇÃO DE POTÊNCIA
+# ===========================================
+
+valor1 = int(input("Digite um número: "))
+valor2 = int(input("Digite o valor do expoente: "))
+
+print(f"O valor da potencia dos dois numeros é: {valor1 ** valor2}")
+
+
+# ===========================================
+# OPERAÇÃO DE DIVISÃO INTEIRA
+# ===========================================
+
+valor1 = int(input("Digite o primeiro número: "))
+valor2 = int(input("Digite o segundo número: "))
+
+print(f"O valor da divisão inteira dos dois numeros é: {valor1 // valor2}")
+
+
+# ===========================================
+# OPERAÇÃO DE RESTO DA DIVISÃO
+# ===========================================
+
+valor1 = int(input("Digite o numerador: "))
+valor2 = int(input("Digite o denominador(não pode ser zero): "))
+
+print(f"O valor do resto da divisão dos dois numeros é: {valor1 % valor2}")
+
+# ===========================================
+# MÉDIA ARITMÉTICA
+# ===========================================
+
+nota1 = float(input("Digite a primeira nota: "))
+nota2 = float(input("Digite a segunda nota: "))
+nota3 = float(input("Digite a terceira nota: "))
+
+print(f"A sua média de nota é: {((nota1 + nota2 + nota3) / 3):.1f}")
+
+# ===========================================
+# MÉDIA PONDERADA
+# ===========================================
+
+print(f"A média ponderada é: {(5*1 + 12*2 + 20*3 + 15*4) / (1+2+3+4)}")
